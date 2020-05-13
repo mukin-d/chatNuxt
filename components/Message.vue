@@ -10,7 +10,7 @@
                     <strong>{{name}}</strong>
                 </small>
                 <p class="msg_item_text">{{text}}</p>
-                <small :class="{owner}" class="msg_time">sendMessageTime</small>
+                <small :class="{owner}" class="msg_time">{{}}</small>
             </div>
         </div>
     </div>
