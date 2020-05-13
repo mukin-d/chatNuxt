@@ -11,7 +11,6 @@
                 </small>
                 <p class="msg_item_text">{{text}}</p>
                 <small :class="{owner}" class="msg_time">{{}}</small>
-                <small :class="{owner}" class="msg_time">extraTime</small>
             </div>
         </div>
     </div>
