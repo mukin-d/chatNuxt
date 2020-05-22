@@ -10,7 +10,7 @@
                     <strong>{{name}}</strong>
                 </small>
                 <p class="msg_item_text">{{text}}</p>
-                <small :class="{owner}" class="msg_time">{{}}</small>
+                <small class="msg_time">{{sendTime}}</small>
             </div>
         </div>
     </div>
@@ -21,6 +21,7 @@
         props: {
             name: String,
             text: String,
+            sendTime: String,
             owner: {
                 type: Boolean,
                 default: false
@@ -64,6 +65,10 @@
         background: #ffffff;
         color: #000000;
         align-self: flex-end;
+    }
+
+    .msg_time {
+        font-size: 65%;
     }
 
 </style>

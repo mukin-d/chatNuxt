@@ -6,6 +6,7 @@
                 :name="m.name"
                 :text="m.text"
                 :owner="m.id === user.id"
+                :sendTime="m.sendTime"
             />
         </div>
         <div class="chat_form">
